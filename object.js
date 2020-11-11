@@ -17,3 +17,11 @@
 // let object = Object();
 // object.a = 'object';
 // console.log(object);
+let deleteObj={
+    a: 'hey',
+    b: 'delete',
+    c: 'me'
+}
+let deLete = delete deleteObj.a;
+console.log(deLete);
+console.log(deleteObj); 
